@@ -1,0 +1,41 @@
+athlete_id,date,training_type,duration_min,intensity,notes,assigned_by,completed,performance_rating
+A01,2024-01-08,Strength Training,60,HIGH,Bench press 3x10 @ 80kg. Good form.,Coach Rivera,true,8
+A01,2024-01-09,Sprint Intervals,45,HIGH,8x100m sprints. PB on 3rd rep.,Coach Rivera,true,9
+A01,2024-01-10,Recovery Swim,30,LOW,Easy laps. Focus on breathing.,Coach Rivera,true,7
+A01,2024-01-11,Tactical Drills,90,MODERATE,Positional play. Good decision making.,Coach Rivera,true,8
+A01,2024-01-12,Rest Day,0,REST,Mandatory rest. Ice bath recommended.,Coach Rivera,true,0
+A01,2024-01-13,Strength Training,75,HIGH,Squat 4x8 @ 100kg. New PR.,Coach Rivera,true,10
+A01,2024-01-14,Endurance Run,50,MODERATE,10km steady pace. Heart rate stable.,Coach Rivera,true,8
+A01,2024-01-15,Intensive Training,90,HIGH,Full team scrimmage + tactical session.,Coach Rivera,false,0
+A02,2024-01-08,Endurance Run,60,MODERATE,8km run. Struggled last 2km.,Coach Rivera,true,6
+A02,2024-01-09,Strength Training,45,MODERATE,Upper body focus. Needs improvement on pull-ups.,Coach Rivera,true,6
+A02,2024-01-10,Tactical Drills,90,HIGH,Pressing drills. Good intensity.,Coach Rivera,true,8
+A02,2024-01-11,Sprint Intervals,30,HIGH,6x50m. Good acceleration.,Coach Rivera,true,7
+A02,2024-01-12,Strength Training,60,HIGH,Deadlift 3x5 @ 90kg.,Coach Rivera,true,7
+A02,2024-01-13,Recovery Yoga,45,LOW,Flexibility focus. Recommended weekly.,Coach Rivera,true,8
+A02,2024-01-14,Tactical Drills,90,HIGH,Late session. Signs of fatigue noted.,Coach Rivera,true,5
+A02,2024-01-15,Recovery,0,REST,High fatigue detected. Rest ordered.,Coach Rivera,false,0
+A03,2024-01-08,Strength Training,60,MODERATE,Core + lower body. Excellent technique.,Coach Rivera,true,9
+A03,2024-01-09,Endurance Run,45,LOW,Easy 7km. Comfortable pace.,Coach Rivera,true,9
+A03,2024-01-10,Sprint Intervals,40,HIGH,10x60m. Best time this season.,Coach Rivera,true,10
+A03,2024-01-11,Tactical Drills,90,MODERATE,Defensive shape work. Excellent.,Coach Rivera,true,9
+A03,2024-01-12,Strength Training,60,HIGH,Olympic lifts. Great form.,Coach Rivera,true,9
+A03,2024-01-13,Recovery Swim,30,LOW,Active recovery swim.,Coach Rivera,true,8
+A03,2024-01-14,Endurance Run,60,MODERATE,12km. Strong finish.,Coach Rivera,true,9
+A03,2024-01-15,Intensive Training,90,HIGH,Peak condition. Full intensity.,Coach Rivera,false,0
+A04,2024-01-08,Strength Training,90,HIGH,Heavy compound lifts. Overextended.,Coach Rivera,true,5
+A04,2024-01-09,Sprint Intervals,60,HIGH,Pushed too hard. 12x100m.,Coach Rivera,true,6
+A04,2024-01-10,Strength Training,75,HIGH,Back to back heavy sessions.,Coach Rivera,true,5
+A04,2024-01-11,Tactical Drills,90,HIGH,Refused to reduce intensity.,Coach Rivera,true,4
+A04,2024-01-12,Strength Training,60,HIGH,Warned about overtraining.,Coach Rivera,true,4
+A04,2024-01-13,Sprint Intervals,45,HIGH,Fatigue signs increasing.,Coach Rivera,true,3
+A04,2024-01-14,Strength Training,60,HIGH,Critical fatigue. Intervention needed.,Coach Rivera,true,3
+A04,2024-01-15,Recovery,0,REST,MANDATORY REST. High injury risk.,Coach Rivera,false,0
+A05,2024-01-08,Goalkeeper Training,75,HIGH,Shot stopping + distribution. Good session.,Coach Rivera,true,8
+A05,2024-01-09,Strength Training,45,MODERATE,Core + reaction training.,Coach Rivera,true,8
+A05,2024-01-10,Endurance Run,40,LOW,6km easy jog.,Coach Rivera,true,7
+A05,2024-01-11,Goalkeeper Training,90,HIGH,Penalty saves + crosses.,Coach Rivera,true,9
+A05,2024-01-12,Recovery Yoga,45,LOW,Flexibility + mindfulness.,Coach Rivera,true,8
+A05,2024-01-13,Strength Training,60,MODERATE,Full body conditioning.,Coach Rivera,true,8
+A05,2024-01-14,Goalkeeper Training,75,HIGH,Match simulation.,Coach Rivera,true,8
+A05,2024-01-15,Moderate Training,60,MODERATE,Reduced load. Monitoring recovery.,Coach Rivera,false,0
