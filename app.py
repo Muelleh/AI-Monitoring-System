@@ -15,7 +15,7 @@ from datetime import date, datetime
 
 from ai_engine        import analyse_team, compute_readiness_score, classify_fatigue, classify_injury_risk, training_recommendation
 from sensor_simulator import simulate_team
-from charts           import readiness_bar_chart, injury_risk_pie, fatigue_scatter, gauge_chart, performance_trend, biometric_radar
+from perf_charts      import readiness_bar_chart, injury_risk_pie, fatigue_scatter, gauge_chart, performance_trend, biometric_radar
 
 # ─────────────────────────────────────────────
 # PAGE CONFIG
