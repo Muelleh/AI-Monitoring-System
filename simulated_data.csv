@@ -1,0 +1,11 @@
+id,name,role,heart_rate,sleep_hours,training_load,body_temp,recovery_indicator,date
+A01,Marcus Reeves,Athlete,72,7.5,65,36.8,0.82,2024-01-15
+A02,Jordan Chen,Athlete,88,5.2,85,37.1,0.51,2024-01-15
+A03,Sofia Navarro,Athlete,65,8.0,50,36.6,0.91,2024-01-15
+A04,Tyler Brooks,Athlete,95,4.5,92,37.4,0.38,2024-01-15
+A05,Priya Singh,Athlete,78,6.8,70,36.9,0.72,2024-01-15
+A06,Dmitri Volkov,Soldier,70,7.2,60,36.7,0.85,2024-01-15
+A07,Aisha Okafor,Soldier,82,5.8,78,37.0,0.60,2024-01-15
+A08,Carlos Mendez,Soldier,91,4.8,88,37.3,0.43,2024-01-15
+A09,Lee Joon-ho,Soldier,68,7.8,55,36.6,0.88,2024-01-15
+A10,Emma Walsh,Soldier,76,6.5,68,36.8,0.74,2024-01-15
