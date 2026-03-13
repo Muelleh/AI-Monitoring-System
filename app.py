@@ -6,17 +6,22 @@
 """
 
 import sys, os
-sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
+# Support both flat (Streamlit Cloud) and nested (local) structures
+_dir = os.path.dirname(os.path.abspath(__file__))
+_root = os.path.dirname(_dir)
+for p in [_dir, _root]:
+    if p not in sys.path:
+        sys.path.insert(0, p)
 
 import streamlit as st
 import pandas as pd
 import numpy as np
 from pathlib import Path
 
-from model.ai_engine        import analyse_team
-from utils.sensor_simulator import simulate_team, simulate_single
-from utils.charts           import (readiness_bar_chart, injury_risk_pie,
-                                    fatigue_scatter, gauge_chart, hr_sleep_bar)
+from ai_engine        import analyse_team
+from sensor_simulator import simulate_team, simulate_single
+from charts           import (readiness_bar_chart, injury_risk_pie,
+                               fatigue_scatter, gauge_chart, hr_sleep_bar)
 
 # ─────────────────────────────────────────────
 # PAGE CONFIG
@@ -178,7 +183,10 @@ hr { border-color: var(--border) !important; }
 # ─────────────────────────────────────────────
 # DATA LOADING & CACHING
 # ─────────────────────────────────────────────
-DATA_PATH = Path(__file__).parent.parent / "data" / "simulated_data.csv"
+_here = Path(__file__).parent
+DATA_PATH = _here / "simulated_data.csv"
+if not DATA_PATH.exists():
+    DATA_PATH = _here.parent / "data" / "simulated_data.csv"
 
 
 @st.cache_data(ttl=60)
@@ -490,7 +498,7 @@ elif page == "Sensor Simulator":
             submitted = st.form_submit_button("◆ ANALYSE")
 
         if submitted:
-            from model.ai_engine import (compute_readiness_score,
+            from ai_engine import (compute_readiness_score,
                                          classify_fatigue,
                                          classify_injury_risk,
                                          training_recommendation)
